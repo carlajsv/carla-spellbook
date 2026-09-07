@@ -35,10 +35,10 @@ An adaptive interaction layer that helps protect focus, externalize conversation
 
 ## Install the marketplace in Codex
 
-Add this repository as a marketplace once:
+Add the GitHub repository as a marketplace once:
 
 ```bash
-codex plugin marketplace add /absolute/path/to/carla-skills
+codex plugin marketplace add carlajsv/carla-skills --ref main
 ```
 
 Then install a plugin from the marketplace:
@@ -48,6 +48,12 @@ codex plugin add adhd-friendly-ai@personal
 ```
 
 Start a new task after installing or updating a plugin so Codex loads the current version.
+
+For local marketplace development, register the checkout instead:
+
+```bash
+codex plugin marketplace add /absolute/path/to/carla-skills
+```
 
 ## Use the skill outside Codex
 

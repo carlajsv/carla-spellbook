@@ -1,0 +1,18 @@
+{
+  "name": "adhd-friendly-ai",
+  "version": "0.1.0",
+  "description": "Adaptive, ADHD-friendly communication and task guidance for AI conversations.",
+  "author": {
+    "name": "Carla Sánchez Valles"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ADHD-Friendly AI",
+    "shortDescription": "Clear, focused, adaptive AI interaction.",
+    "longDescription": "Structures AI conversations to reduce unnecessary demands on attention, working memory, decision-making, and task initiation while preserving useful complexity.",
+    "developerName": "Carla Sánchez Valles",
+    "category": "Productivity",
+    "capabilities": ["Adaptive communication", "Task guidance"],
+    "defaultPrompt": "Use ADHD-friendly structure to help me understand, decide, and act."
+  }
+}

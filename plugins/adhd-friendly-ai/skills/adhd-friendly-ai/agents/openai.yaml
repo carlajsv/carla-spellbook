@@ -1,0 +1,4 @@
+interface:
+  display_name: "ADHD-Friendly AI"
+  short_description: "Clear, focused, adaptive AI interaction"
+  default_prompt: "Use $adhd-friendly-ai to help me understand, decide, or act without unnecessary cognitive load."

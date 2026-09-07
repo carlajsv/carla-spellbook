@@ -1,0 +1,20 @@
+{
+  "name": "personal",
+  "interface": {
+    "displayName": "Carla Skills"
+  },
+  "plugins": [
+    {
+      "name": "adhd-friendly-ai",
+      "source": {
+        "source": "local",
+        "path": "./plugins/adhd-friendly-ai"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

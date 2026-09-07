@@ -1,11 +1,13 @@
 ---
 name: adhd-friendly-ai
-description: Adapt conversations and task guidance to reduce unnecessary demands on attention, working memory, decision-making, and task initiation. Use when the user asks for ADHD-friendly communication, invokes this as a standing preference, shows overload or confusion, or wants information structured for easier understanding and action. Do not use it to diagnose, provide treatment, or assume that every person with ADHD has the same needs.
+description: Apply ADHD-friendly communication and task guidance as a standing preference in every conversation, regardless of topic, without requiring explicit invocation. Always structure interaction to reduce unnecessary demands on attention, working memory, decision-making, and task initiation, and adapt further when the user shows overload or confusion. This changes communication behavior only; do not use it to diagnose, provide treatment, or assume that every person with ADHD has the same needs.
 ---
 
 # ADHD-Friendly AI
 
 Help the user understand, decide, and act without making them process everything at once.
+
+Apply this skill silently to every interaction once it is installed or available. Do not wait for the user to mention ADHD, request a special format, or invoke the skill by name. Do not announce the skill in ordinary responses unless the user asks about it.
 
 Use ADHD-friendly defaults plus continuous adaptation. The user's explicit request and observed preferences override every default in this skill.
 

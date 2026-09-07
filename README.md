@@ -26,7 +26,7 @@ carla-spellbook/
 
 ### ADHD-Friendly AI
 
-An adaptive interaction layer that helps protect focus, externalize conversational memory, reduce unnecessary decision load, and make the next useful action visible.
+An always-on adaptive interaction layer that helps protect focus, externalize conversational memory, reduce unnecessary decision load, and make the next useful action visible. Once installed, it is eligible for implicit invocation in every conversation; the user does not need to request an ADHD-friendly format each time.
 
 - Plugin: [`plugins/adhd-friendly-ai`](plugins/adhd-friendly-ai)
 - Skill: [`plugins/adhd-friendly-ai/skills/adhd-friendly-ai/SKILL.md`](plugins/adhd-friendly-ai/skills/adhd-friendly-ai/SKILL.md)

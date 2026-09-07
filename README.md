@@ -1,13 +1,13 @@
-# Carla Skills
+# Carla’s Spellbook ✨
 
-Personal marketplace for reusable AI skills and Codex plugins.
+A personal spellbook of reusable AI skills and Codex plugins.
 
 The repository is a catalog, not a single skill. Each installable entry is a Codex plugin, and each plugin can package one or more skills plus optional tools, apps, scripts, or assets.
 
 ## Structure
 
 ```text
-carla-skills/
+carla-spellbook/
 ├── .agents/plugins/marketplace.json
 ├── plugins/
 │   └── adhd-friendly-ai/
@@ -38,13 +38,13 @@ An adaptive interaction layer that helps protect focus, externalize conversation
 Add the GitHub repository as a marketplace once:
 
 ```bash
-codex plugin marketplace add carlajsv/carla-skills --ref main
+codex plugin marketplace add carlajsv/carla-spellbook --ref main
 ```
 
 Then install a plugin from the marketplace:
 
 ```bash
-codex plugin add adhd-friendly-ai@personal
+codex plugin add adhd-friendly-ai@carla-spellbook
 ```
 
 Start a new task after installing or updating a plugin so Codex loads the current version.
@@ -52,7 +52,7 @@ Start a new task after installing or updating a plugin so Codex loads the curren
 For local marketplace development, register the checkout instead:
 
 ```bash
-codex plugin marketplace add /absolute/path/to/carla-skills
+codex plugin marketplace add /absolute/path/to/carla-spellbook
 ```
 
 ## Use the skill outside Codex
